@@ -1,0 +1,41 @@
+.experience-title,.education-title{
+    font-size: 15px;
+    font-family: NotoSans, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:10px 20px;
+    color: rgb(33, 32, 32);
+    width: 100%;
+    margin: none;
+    height: fit-content;
+    border: 1px solid rgb(231, 226, 226);
+    border-radius: 10px;
+    background-color: #f3f5f7;
+    margin-bottom: 25px;
+    display: flex;
+
+
+}
+.btn{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.add-education-btn ,.add-experience-btn{
+    background-color: #4CAF50;
+    width: fit-content;
+   height: 40px;
+
+}
+.education-title>h2,.experience-title>h2{
+    font-size: 17px;
+}
+
+ h2>span{
+margin-left: 10px;
+}
+button{
+    background-color: gray;
+    font: white;
+    margin: 10px;
+}

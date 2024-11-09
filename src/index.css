@@ -1,0 +1,86 @@
+@font-face {
+  font-family: NotoSans;
+  src: url(./assets/NotoSans-SemiBold.99df72e26c72877cb1f9.ttf);
+}
+@font-face {
+  font-family: Fa-solid;
+  src: url(./assets/fa-solid-900.66104b766c3d0462b3c5.woff2);
+
+}
+
+*{
+  box-sizing: border-box;
+margin: none;
+padding: none;
+}
+body,html,main{
+
+  width: 100vw;
+
+}
+main{
+  display: flex;
+  justify-content: flex-start;
+  
+  background-color:#F3F5F7;
+}
+
+
+.container{
+  width:70%;
+  height:100vh;
+  background-color: rgb(3, 26, 66);
+
+}
+
+#save-btn{
+  background-color: #4B9F4B;
+}
+
+#delete-btn{
+  background-color: #FE0001;
+}
+
+.sticky-btn{
+  position: sticky;
+top: 30px;
+
+}
+.edit{
+
+width:100%;
+height: fit-content;
+font-size: 13.5px;
+font-family: NotoSans;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: #feffff;
+border-radius:10px ;
+margin:  0px 0 15px 0;
+box-shadow:0 7px 29px 0 hsla(240,5%,41%,.2);
+
+}
+
+.edit-btn{
+  width: 40%;
+  height: 20px;
+  margin: 10px;
+  padding:5px;
+  background-color: white;
+  text-align: center;
+  line-height: 10px;
+ 
+}
+
+.load-example{
+  width: 40%;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #F3F5F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
