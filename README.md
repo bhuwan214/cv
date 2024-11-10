@@ -2,7 +2,7 @@
 
 CV Builder is a user-friendly, interactive web application designed to help users create a professional resume with ease. This tool allows users to input their personal details, education history, and work experience, which are instantly displayed in a formatted preview. The completed resume can be downloaded as a PDF, making it ready for job applications.
 
-![CV Builder Screenshot](./Screenshot.png)
+![CV Builder Screenshot](./public/screenshot.png)
 
 [Live Demo](https://bhuwan214.github.io/cv/)
 
